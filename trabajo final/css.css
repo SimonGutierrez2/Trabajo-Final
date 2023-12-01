@@ -37,8 +37,23 @@ footer {
     text-align: center;
 
 }
-.contacto{
-    
+.inicio{
     text-align: center;
     background-color: silver;
+}
+.contacto{
+    text-align: center;
+    background-color: #eeeeee;
+}
+.SobreNosotros{
+    text-align: center;
+    background-color: rgb(168, 168, 168);
+}
+.turno{
+    text-align: center;
+    background-color: rgb(143, 143, 143);
+}
+.tabla{
+    text-align: center;
+    background-color: rgb(197, 196, 196);
 }
