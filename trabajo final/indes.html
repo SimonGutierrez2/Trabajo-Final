@@ -17,12 +17,12 @@
             
       </nav>
   </header> 
- <section id="inicio">
+ <section>
+  <div id="inicio">
     <h2>Bienvenidos</h2>
-    <p>Esta es la ubicacion en la que queda el sanatorio en al ciudad de San Francisco</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27235.53253696358!2d-62.08063616931153!3d-31.42950847573816!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cb281eb4414ffd%3A0xd7a36b5bed7e27c4!2sIturraspe%201321%2C%20X2400%20San%20Francisco%2C%20C%C3%B3rdoba%2C%20Argentina!5e0!3m2!1ses-419!2sus!4v1701380994505!5m2!1ses-419!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </section>
-      
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27235.53253696358!2d-62.08063616931153!3d-31.42950847573816!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cb281eb4414ffd%3A0xd7a36b5bed7e27c4!2sIturraspe%201321%2C%20X2400%20San%20Francisco%2C%20C%C3%B3rdoba%2C%20Argentina!5e0!3m2!1ses-419!2sus!4v1701380994505!5m2!1ses-419!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
        
   <section id="SobreNosotros">
     <h2>Sobre Nosotros</h2>
@@ -37,8 +37,8 @@
   </section>
 
   <section id="doctores">
-    <h2>Doctores</h2>
-    <p>Explora la gran variedad de </p>
+    <h2 id="title">Servicios </h2>
+    <p>los distintos servicos que ofrece este hospital</p>
       <select class="form-control" name="id_categoria" id="id_categoria" onchange="submit()">  
       <option value="0" selected="selected">Seleccione una opción</option>
      <option value="41">Alergia e Inmunologia</option>
@@ -86,13 +86,14 @@
       </form>
     </div>
     </section>
-       
-    <section id="Contacto">
+    <div id="contacto">
+    <section id="contacto">
     <h2>Contactanos </h2>
-    <p>aqui puede pedir un turno, o tambien llamando al </p>
+    <p>aqui puede pedir un turno, o tambien llamando al  +54 (3564) 423777</p>
+    
           
     <div class=header>
-    <h2>Sanatorio Argentino San Francisco Cordoba|</h2>
+    <h2>Sanatorio Argentino San Francisco Cordoba</h2>
     </section>
   
     <h2> Solicita un Turno <p>Te ofrecemos toda la información para que puedas realizar tus trámites a través de nuestros canales de atención no presenciales, o con turno previo para concurrir a nuestras oficinas.</p></h2>
@@ -113,7 +114,10 @@
       <label for="">Turno:</label>
       <input type="date" id="date" value="28-08-2023" />
       <br><br>
-      <button type="submit" onclick="enviar()">Enviar</button>
+      <label for="">obra social:</label>
+      <input type="text" id="obrsoc">
+      <br><br>
+      <button type="button" onclick="subir()">subir</button>
     </form>
   </section>
   <h2>tabla de turnos asignados:</h2>

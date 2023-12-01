@@ -30,4 +30,15 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.header{
+    background-color: dodgerblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
 
+}
+.contacto{
+    
+    text-align: center;
+    background-color: silver;
+}
